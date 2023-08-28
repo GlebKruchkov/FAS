@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/material_dynamic_primary90"
+        android:orientation="vertical"
+        tools:context=".Login">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="170dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/Pila"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="384dp"
+            android:layout_height="184dp"
+            app:srcCompat="@drawable/pila" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/film_rating_7_8_10"
+            android:textSize="16sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/add_Pila"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/add_to_favourites"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/Pila_trailer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/watch_the_trailer"
+                tools:ignore="VisualLintButtonSize" />
+        </FrameLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/design_default_color_primary_dark">
+        </View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/щтщ"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="392dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/ono" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/film_rating_7_3_10"
+            android:textSize="16sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/add_ono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/add_to_favourites"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/ono_trailer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/watch_the_trailer"
+                tools:ignore="VisualLintButtonSize" />
+        </FrameLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/design_default_color_primary_dark">
+        </View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="170dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/virus"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="390dp"
+            android:layout_height="177dp"
+            app:srcCompat="@drawable/virus" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/film_rating_5_1_10"
+            android:textSize="16sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/add_virus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/add_to_favourites"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/virus_trailer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/watch_the_trailer"
+                tools:ignore="VisualLintButtonSize" />
+        </FrameLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/design_default_color_primary_dark">
+        </View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/time"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="384dp"
+            android:layout_height="174dp"
+            app:srcCompat="@drawable/time" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/film_rating_7_3_10"
+            android:textSize="16sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/add_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/add_to_favourites"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/time_trailer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/watch_the_trailer"
+                tools:ignore="VisualLintButtonSize" />
+        </FrameLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/design_default_color_primary_dark">
+        </View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="155dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/otmel"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="386dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/otmel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/film_rating_6_3_10"
+            android:textSize="16sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/add_otmel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/add_to_favourites"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/otmel_trailer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/watch_the_trailer"
+                tools:ignore="VisualLintButtonSize" />
+        </FrameLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/design_default_color_primary_dark">
+        </View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/day"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="373dp"
+            android:layout_height="139dp"
+            app:srcCompat="@drawable/day" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/film_rating_6_6_10"
+            android:textSize="16sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/add_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/add_to_favourites"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/day_trailer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/watch_the_trailer"
+                tools:ignore="VisualLintButtonSize" />
+        </FrameLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/design_default_color_primary_dark">
+        </View>
+    </LinearLayout>
+</ScrollView>

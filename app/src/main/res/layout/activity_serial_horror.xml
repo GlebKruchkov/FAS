@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/material_dynamic_primary90"
+        android:orientation="vertical"
+        tools:context=".Login">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/strange"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="390dp"
+            android:layout_height="181dp"
+            app:srcCompat="@drawable/strange" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/serial_rating_7_4_10"
+            android:textSize="16sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/add_strange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/add_to_favourites"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/strange_trailer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/watch_the_trailer"
+                tools:ignore="VisualLintButtonSize" />
+        </FrameLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/design_default_color_primary_dark">
+        </View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="165dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/izvne"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="392dp"
+            android:layout_height="193dp"
+            app:srcCompat="@drawable/izvne" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/serial_rating_7_6_10"
+            android:textSize="16sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/add_izvne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/add_to_favourites"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/izvne_trailer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/watch_the_trailer"
+                tools:ignore="VisualLintButtonSize" />
+        </FrameLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/design_default_color_primary_dark">
+        </View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="165dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/shershni"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="382dp"
+            android:layout_height="163dp"
+            app:srcCompat="@drawable/shershni" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/serial_rating_7_4_10"
+            android:textSize="16sp" />
+
+        <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/add_shershni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:background="?android:attr/scrollbarTrackVertical"
+            android:backgroundTint="@color/material_dynamic_tertiary30"
+            android:fontFamily="@font/arima_madurai_medium"
+            android:onClick="onClick"
+            android:text="@string/add_to_favourites"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/shershni_trailer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:background="?android:attr/scrollbarTrackVertical"
+            android:backgroundTint="@color/material_dynamic_tertiary30"
+            android:fontFamily="@font/arima_madurai_medium"
+            android:onClick="onClick"
+            android:text="@string/watch_the_trailer"
+            tools:ignore="VisualLintButtonSize" />
+    </FrameLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/design_default_color_primary_dark">
+        </View>
+    </LinearLayout>
+</ScrollView>

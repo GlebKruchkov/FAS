@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_primary90"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/arima_madurai_extrabold"
+        android:text="@string/choose_your_preffered_serial_genre"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/comedy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/scrollbarTrackVertical"
+        android:backgroundTint="@color/material_dynamic_tertiary30"
+        android:fontFamily="@font/arima_madurai_medium"
+        android:text="@string/comedy"
+        tools:ignore="VisualLintButtonSize"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/horror"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/scrollbarTrackVertical"
+        android:backgroundTint="@color/material_dynamic_tertiary30"
+        android:fontFamily="@font/arima_madurai_medium"
+        android:text="@string/horror"
+        tools:ignore="VisualLintButtonSize"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/scrollbarTrackVertical"
+        android:backgroundTint="@color/material_dynamic_tertiary30"
+        android:fontFamily="@font/arima_madurai_medium"
+        android:text="@string/family"
+        tools:ignore="VisualLintButtonSize"
+        android:onClick="onClick"/>
+
+</LinearLayout>

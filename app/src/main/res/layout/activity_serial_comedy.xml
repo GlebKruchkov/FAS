@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/material_dynamic_primary90"
+        android:orientation="vertical"
+        tools:context=".Login">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="115dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/trudny"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="394dp"
+            android:layout_height="207dp"
+            app:srcCompat="@drawable/trudny" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/serial_rating_8_1_10"
+            android:textSize="16sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/add_trudny"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/add_to_favourites"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/trudny_trailer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/watch_the_trailer"
+                tools:ignore="VisualLintButtonSize" />
+        </FrameLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/design_default_color_primary_dark">
+        </View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="170dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/zuki"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="392dp"
+            android:layout_height="206dp"
+            app:srcCompat="@drawable/zuki" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/serial_rating_7_7_10"
+            android:textSize="16sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/add_zuki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/add_to_favourites"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/zuki_trailer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/watch_the_trailer"
+                tools:ignore="VisualLintButtonSize" />
+        </FrameLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/design_default_color_primary_dark">
+        </View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="170dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/kitchen"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="392dp"
+            android:layout_height="186dp"
+            app:srcCompat="@drawable/kuxna" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/serial_rating_8_2_10"
+            android:textSize="16sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/add_kitchen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/add_to_favourites"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/kitchen_trailer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/watch_the_trailer"
+                tools:ignore="VisualLintButtonSize" />
+        </FrameLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/design_default_color_primary_dark">
+        </View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/Soderzanki"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:id="@+id/imageView49"
+            android:layout_width="399dp"
+            android:layout_height="188dp"
+            app:srcCompat="@drawable/soderzanki" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/serial_rating_6_7_10"
+            android:textSize="16sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/add_soderzanki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/add_to_favourites"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/soderzanki_trailer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/watch_the_trailer"
+                tools:ignore="VisualLintButtonSize" />
+        </FrameLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/design_default_color_primary_dark">
+        </View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="123dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/ivanovi"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:id="@+id/imageView48"
+            android:layout_width="397dp"
+            android:layout_height="214dp"
+            app:srcCompat="@drawable/ivanovi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/serial_rating_7_7_10"
+            android:textSize="16sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/add_ivanovi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/add_to_favourites"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/ivanovi_trailer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/watch_the_trailer"
+                tools:ignore="VisualLintButtonSize" />
+        </FrameLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/design_default_color_primary_dark">
+        </View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="143dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/hotel"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:id="@+id/imageView46"
+            android:layout_width="392dp"
+            android:layout_height="205dp"
+            app:srcCompat="@drawable/eleon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arima_madurai_extrabold"
+            android:text="@string/serial_rating_7_3_10"
+            android:textSize="16sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/add_eleon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/add_to_favourites"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/eleon_trailer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220dp"
+                android:background="?android:attr/scrollbarTrackVertical"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:onClick="onClick"
+                android:text="@string/watch_the_trailer"
+                tools:ignore="VisualLintButtonSize" />
+        </FrameLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/design_default_color_primary_dark">
+        </View>
+    </LinearLayout>
+</ScrollView>

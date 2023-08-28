@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_primary90"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/indigo_daisy"
+        android:text="@string/welcome_to_fas"
+        android:textAlignment="center"
+        android:textSize="50sp" />
+
+
+    <Button
+        android:fontFamily="@font/arima_madurai_medium"
+        android:id="@+id/main_btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="?android:attr/scrollbarTrackVertical"
+        android:backgroundTint="@color/material_dynamic_tertiary30"
+        android:onClick="onClick"
+        android:text="@string/login" />
+
+    <Button
+        android:fontFamily="@font/arima_madurai_medium"
+        android:id="@+id/main_btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/scrollbarTrackVertical"
+        android:backgroundTint="@color/material_dynamic_tertiary30"
+        android:onClick="onClick"
+        android:text="@string/register" />
+
+    <Button
+        android:fontFamily="@font/arima_madurai_medium"
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="430dp"
+        android:background="?android:attr/scrollbarTrackVertical"
+        android:backgroundTint="@color/material_dynamic_tertiary30"
+        android:gravity="center"
+        android:text="@string/exit"
+        android:onClick="onClick"/>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User"
+    android:orientation="vertical"
+    android:background="@color/material_dynamic_primary90">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arima_madurai_extrabold"
+        android:textSize="25sp"
+        android:text="@string/your_bookmarks"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arima_madurai_extrabold"
+        android:textSize="20sp"
+        android:text="@string/films"/>
+
+    <TextView
+        android:id="@+id/films"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arima_madurai_extrabold"
+        android:textSize="20sp"
+        android:text="@string/serials"/>
+    <TextView
+        android:id="@+id/serials"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/back_from_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="166dp"
+        android:background="?android:attr/scrollbarTrackVertical"
+        android:backgroundTint="@color/material_dynamic_tertiary30"
+        android:fontFamily="@font/arima_madurai_medium"
+        android:text="@string/back"
+        tools:ignore="VisualLintButtonSize"
+        android:onClick="onClick"/>
+</LinearLayout>
