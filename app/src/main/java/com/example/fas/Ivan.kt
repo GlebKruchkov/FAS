@@ -17,7 +17,7 @@ class Ivan : AppCompatActivity(), View.OnClickListener {
         val video : VideoView = findViewById(R.id.video)
         val mediaController = MediaController(this)
         mediaController.setAnchorView(video)
-        val ur = Uri.parse("android.resource://$packageName/${R.raw.ivan}")
+        val ur = Uri.parse("android.resource://$packageName/${R.raw.eleon}")
         video.setMediaController(mediaController)
         video.setVideoURI(ur)
         video.requestFocus()
